@@ -16,7 +16,7 @@ const LayoutContainer=()=>{
 const [collapsed,setCollapsed]=useState(false)
 
   const onCollapse = collapsed => {
-    setCollapsed(collapsed);
+    setCollapsed(collapsed );
   };
 
 const { Header, Content, Footer, Sider } = Layout;
