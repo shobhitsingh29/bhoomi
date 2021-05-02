@@ -2,6 +2,7 @@ import React from "react";
 import App from "next/app";
 import '../styles/globals.css'
 import "../styles/less/antd.less";
+
 class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
