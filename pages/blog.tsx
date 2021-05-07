@@ -14,15 +14,19 @@ export default function Blog() {
       <div className="text-center pt-40 pb-56 bg-violet">
         <Container>
           <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl">
-            Welcome to Acme, the simplest way to start publishing with Next.js
+            Welcome to Soil
           </h2>
           <p className="mt-3 max-w-md mx-auto text-gray-100 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-            The Yeezy BOOST 350 V2 lineup continues to grow. We recently had the
-            ‘Carbon’ iteration, and now release details have been locked in for
-            this ‘Natural’ joint. Revealed by Yeezy Mafia earlier this year, the
-            shoe was originally called ‘Abez’, which translated to ‘Tin’ in
-            Hebrew. It’s now undergone a name change, and will be referred to as
-            ‘Natura`
+            Soil is one of the fastest-growing start-ups in the Agri Tech sector
+            and one of the very few companies providing end-to-end solutions and
+            services to the farming community in India. We are building
+            AI-enabled technologies to revolutionize supply chain and production
+            efficiency in the farm sector. Currently, we are operating in - UP
+            with 350,000 farmers in our service network and our goal is to bring
+            our services to 5 million farmers by 2024. Founded by Shobhit – Soil
+            is now a start-up with a growth rate of 3-4x annually. The impact we
+            have created at grass root level over the last 8 years of our
+            operations has been phenomenal.
           </p>
           <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-12">
             <div className="flex">
@@ -34,11 +38,9 @@ export default function Blog() {
                 />
               </div>
               <div className="ml-4">
-                <div className="leading-6 font-medium text-white">
-                  José Rodriguez
-                </div>
+                <div className="leading-6 font-medium text-white">Shobhit</div>
                 <div className="leading-6 font-medium text-gray-200">
-                  CEO, Acme
+                  CEO, Soil
                 </div>
               </div>
             </div>

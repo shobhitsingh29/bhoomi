@@ -7,9 +7,6 @@ Start right now at [nextjs.org/commerce](https://nextjs.org/commerce)
 
 Demo live at: [demo.vercel.store](https://demo.vercel.store/)
 
-- Shopify Demo: https://shopify.demo.vercel.store/
-- BigCommerce Demo: https://bigcommerce.demo.vercel.store/
-
 ## Features
 
 - Performant by default
