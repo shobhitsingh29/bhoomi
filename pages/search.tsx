@@ -17,7 +17,7 @@ export default function Search({}: InferGetStaticPropsType<
       <div className="text-center pt-40 pb-56 bg-violet">
         <Container>
           <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl">
-            Welcome to Acme, the simplest way to start publishing with Next.js
+            Welcome to Soil, the simplest way to start publishing with Next.js
           </h2>
           <p className="mt-3 max-w-md mx-auto text-gray-100 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
             The Yeezy BOOST 350 V2 lineup continues to grow. We recently had the
@@ -37,11 +37,9 @@ export default function Search({}: InferGetStaticPropsType<
                 />
               </div>
               <div className="ml-4">
-                <div className="leading-6 font-medium text-white">
-                  José Rodriguez
-                </div>
+                <div className="leading-6 font-medium text-white">Shobhit</div>
                 <div className="leading-6 font-medium text-gray-200">
-                  CEO, Acme
+                  CEO, Soil
                 </div>
               </div>
             </div>
