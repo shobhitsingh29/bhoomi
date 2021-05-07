@@ -9,7 +9,7 @@ interface Props {
   className?: string;
 }
 
-const UserNav: FC<Props> = ({ className }) => {
+const UserNav: FC<any> = ({ className }) => {
   const { toggleSidebar, closeSidebarIfPresent, openModal } = useUI();
 
   return (

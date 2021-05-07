@@ -43,7 +43,7 @@ interface Props {
   };
 }
 
-const Layout: FC<Props> = ({
+const Layout: FC<any> = ({
   children,
   pageProps: { commerceFeatures, ...pageProps },
 }) => {

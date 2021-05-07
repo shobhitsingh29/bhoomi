@@ -1,18 +1,19 @@
-import type { Product } from '@commerce/types'
-export type SelectedOptions = Record<string, string | null>
+export type SelectedOptions = Record<string, string | null>;
 
-export function getVariant(product: Product, opts: SelectedOptions) {
-  const variant = product.variants.find((variant) => {
+export function getVariant(product: any, opts: SelectedOptions) {
+  const variant = product.variants.find((variant: any) => {
     return Object.entries(opts).every(([key, value]) =>
-      variant.options.find((option) => {
+      variant.options.find((option: any) => {
         if (
-          option.__typename === 'MultipleChoiceOption' &&
+          option.__typename === "MultipleChoiceOption" &&
           option.displayName.toLowerCase() === key.toLowerCase()
         ) {
-          return option.values.find((v) => v.label.toLowerCase() === value)
+          return option.values.find(
+            (v: any) => v.label.toLowerCase() === value
+          );
         }
       })
-    )
-  })
-  return variant
+    );
+  });
+  return variant;
 }

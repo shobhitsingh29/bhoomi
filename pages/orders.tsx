@@ -1,17 +1,12 @@
-import type { GetStaticPropsContext } from 'next'
-import { Bag } from '@components/icons'
-import { Layout } from '@components/common'
-import { Container, Text } from '@components/ui'
+import type { GetStaticPropsContext } from "next";
+import { Bag } from "@components/icons";
+import { Layout } from "@components/common";
+import { Container, Text } from "@components/ui";
 
-export async function getStaticProps({
-  preview,
-  locale,
-}: GetStaticPropsContext) {
-  const config = getConfig({ locale })
-  const { pages } = await getAllPages({ config, preview })
+export async function getStaticProps({}: GetStaticPropsContext) {
   return {
-    props: { pages },
-  }
+    props: {},
+  };
 }
 
 export default function Orders() {
@@ -30,7 +25,7 @@ export default function Orders() {
         </p>
       </div>
     </Container>
-  )
+  );
 }
 
-Orders.Layout = Layout
+Orders.Layout = Layout;

@@ -1,19 +1,19 @@
-import React, { CSSProperties } from 'react'
-import cn from 'classnames'
-import px from '@lib/to-pixels'
-import s from './Skeleton.module.css'
+import React, { CSSProperties } from "react";
+import cn from "classnames";
+import px from "@lib/to-pixels";
+import s from "./Skeleton.module.css";
 
 interface Props {
-  width?: string | number
-  height?: string | number
-  boxHeight?: string | number
-  style?: CSSProperties
-  show?: boolean
-  block?: boolean
-  className?: string
+  width?: string | number;
+  height?: string | number;
+  boxHeight?: string | number;
+  style?: CSSProperties;
+  show?: boolean;
+  block?: boolean;
+  className?: string;
 }
 
-const Skeleton: React.FC<Props> = ({
+const Skeleton: React.FC<any> = ({
   style,
   width,
   height,
@@ -24,12 +24,12 @@ const Skeleton: React.FC<Props> = ({
 }) => {
   // Automatically calculate the size if there are children
   // and no fixed sizes are specified
-  const shouldAutoSize = !!children && !(width || height)
+  const shouldAutoSize = !!children && !(width || height);
 
   // Defaults
-  width = width || 24
-  height = height || 24
-  boxHeight = boxHeight || height
+  width = width || 24;
+  height = height || 24;
+  boxHeight = boxHeight || height;
 
   return (
     <span
@@ -51,7 +51,7 @@ const Skeleton: React.FC<Props> = ({
     >
       {children}
     </span>
-  )
-}
+  );
+};
 
-export default Skeleton
+export default Skeleton;

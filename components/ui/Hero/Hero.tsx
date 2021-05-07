@@ -9,7 +9,7 @@ interface Props {
   description: string;
 }
 
-const Hero: FC<Props> = ({ headline, description }) => {
+const Hero: FC<any> = ({ headline, description }) => {
   return (
     <div className="bg-white">
       <Container>

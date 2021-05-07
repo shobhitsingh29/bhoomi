@@ -8,10 +8,10 @@ import { getCategoryPath, getDesignerPath } from "@lib/search";
 interface Props {
   categories?: any;
   brands?: any;
-  products?: Product[];
+  products?: any[];
 }
 
-const HomeAllProductsGrid: FC<Props> = ({
+const HomeAllProductsGrid: FC<any> = ({
   categories,
   brands,
   products = [],
@@ -52,7 +52,7 @@ const HomeAllProductsGrid: FC<Props> = ({
       </div>
       <div className="flex-1">
         <Grid layout="normal">
-          {products.map((product) => (
+          {products.map((product: any) => (
             <ProductCard
               key={product.path}
               product={product}

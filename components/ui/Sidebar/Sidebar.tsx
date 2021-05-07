@@ -1,33 +1,33 @@
-import s from './Sidebar.module.css'
-import Portal from '@reach/portal'
-import { FC, useEffect, useRef } from 'react'
+import s from "./Sidebar.module.css";
+import Portal from "@reach/portal";
+import { FC, useEffect, useRef } from "react";
 import {
   disableBodyScroll,
   enableBodyScroll,
   clearAllBodyScrollLocks,
-} from 'body-scroll-lock'
+} from "body-scroll-lock";
 
 interface Props {
-  children: any
-  open: boolean
-  onClose: () => void
+  children: any;
+  open: boolean;
+  onClose: () => void;
 }
 
-const Sidebar: FC<Props> = ({ children, open = false, onClose }) => {
-  const ref = useRef() as React.MutableRefObject<HTMLDivElement>
+const Sidebar: FC<any> = ({ children, open = false, onClose }) => {
+  const ref = useRef() as React.MutableRefObject<HTMLDivElement>;
 
   useEffect(() => {
     if (ref.current) {
       if (open) {
-        disableBodyScroll(ref.current)
+        disableBodyScroll(ref.current);
       } else {
-        enableBodyScroll(ref.current)
+        enableBodyScroll(ref.current);
       }
     }
     return () => {
-      clearAllBodyScrollLocks()
-    }
-  }, [open])
+      clearAllBodyScrollLocks();
+    };
+  }, [open]);
 
   return (
     <Portal>
@@ -49,7 +49,7 @@ const Sidebar: FC<Props> = ({ children, open = false, onClose }) => {
         </div>
       ) : null}
     </Portal>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;
