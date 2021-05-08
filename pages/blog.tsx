@@ -23,10 +23,9 @@ export default function Blog() {
             AI-enabled technologies to revolutionize supply chain and production
             efficiency in the farm sector. Currently, we are operating in - UP
             with 350,000 farmers in our service network and our goal is to bring
-            our services to 5 million farmers by 2024. Founded by Shobhit – Soil
-            is now a start-up with a growth rate of 3-4x annually. The impact we
-            have created at grass root level over the last 8 years of our
-            operations has been phenomenal.
+            our services to 5 million farmers by 2024. The impact we have
+            created at grass root level over the last 8 years of our operations
+            has been phenomenal.
           </p>
           <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-12">
             <div className="flex">
@@ -50,39 +49,6 @@ export default function Blog() {
       <Container>
         <div className="-mt-96 mx-auto">
           <img src="/soil.png" alt="soil" />
-        </div>
-        {/** Replace by HTML Content */}
-        <div className="text-lg leading-7 font-medium py-6 text-justify max-w-6xl mx-auto">
-          <p className="py-6">
-            Biscuit oat cake wafer icing ice cream tiramisu pudding cupcake.
-            Candy canes bonbon dragée jujubes chocolate bar. Cotton candy gummi
-            bears toffee cake muffin caramels. Gummi bears danish liquorice ice
-            cream pie chocolate cake lemon drops tootsie roll tart. Biscuit
-            gingerbread fruitcake cake powder pudding cotton candy chocolate
-            bar. Sweet donut marshmallow powder gummies jelly tart powder.
-            Cheesecake bonbon caramels cupcake jujubes halvah donut dessert
-            chocolate bar. Jelly gummies liquorice lollipop chocolate bar
-            chocolate cake sugar plum. Lollipop toffee dragée chocolate bar
-            jelly beans biscuit. Halvah danish cheesecake. Tiramisu donut
-            lollipop pie donut caramels tiramisu. Jujubes candy canes pudding
-            danish fruitcake chupa chups jujubes carrot cake bonbon. Halvah
-            donut jelly halvah bonbon.
-          </p>
-          <p className="py-6">
-            Biscuit sugar plum sweet chocolate cake sesame snaps soufflé
-            topping. Gummies topping bonbon chocolate pudding cookie. Wafer
-            icing cake pastry. Gummies candy dessert chupa chups lemon drops.
-            Soufflé marshmallow oat cake chocolate jelly-o caramels pie marzipan
-            jelly beans. Cheesecake liquorice donut jujubes halvah ice cream
-            cotton candy cupcake sugar plum. Ice cream ice cream sweet roll
-            fruitcake icing. Muffin candy canes bonbon croissant gummies lemon
-            drops pie danish. Oat cake chocolate toffee cake jelly tart
-            caramels. Sweet donut cheesecake pastry pie sweet. Bonbon lollipop
-            brownie. Soufflé pudding macaroon cotton candy gingerbread. Biscuit
-            macaroon gummi bears candy canes chocolate cake lemon drops
-            marshmallow. Chocolate cake cotton candy marshmallow cake sweet
-            tootsie roll bonbon carrot cake sugar plum.
-          </p>
         </div>
       </Container>
     </div>

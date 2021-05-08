@@ -1,6 +1,7 @@
 import type { GetStaticPropsContext } from "next";
 import { Layout } from "@components/common";
 import { Accordion } from "@components/ui";
+import { Container } from "@components/ui";
 
 export async function getStaticProps({}: GetStaticPropsContext) {
   return {
@@ -31,13 +32,18 @@ export default function Faq() {
     },
   ];
   return (
-    <>
-      {faq.map(({ description, headline }, index) => (
-        <div key={index}>
-          <Accordion description={description} headline={headline}></Accordion>
-        </div>
-      ))}
-    </>
+    <Container>
+      <div className="max-w-md mx-auto md:max-w-3xl">
+        {faq.map(({ description, headline }, index) => (
+          <div key={index}>
+            <Accordion
+              description={description}
+              headline={headline}
+            ></Accordion>
+          </div>
+        ))}
+      </div>
+    </Container>
   );
 }
 

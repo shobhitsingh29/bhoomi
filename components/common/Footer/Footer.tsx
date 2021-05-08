@@ -103,11 +103,7 @@ const Footer: FC<any> = ({ className, pages }) => {
         </div>
         <div className="py-12 flex flex-col md:flex-row justify-between items-center space-y-4">
           <div>
-            <span>&copy; 2021 SOIL, Inc. All rights reserved.</span>
-          </div>
-          <div className="flex items-center text-primary">
-            <span className="text-primary">Crafted by</span>
-            Shobhit
+            <span>&copy; 2021 BHOOMI, Inc. All rights reserved.</span>
           </div>
         </div>
       </Container>
