@@ -25,6 +25,9 @@ const Navbar: FC = () => (
             <Link href="/blog">
               <a className={s.link}>blog</a>
             </Link>
+            <Link href="/faq">
+              <a className={s.link}>FAQ</a>
+            </Link>
           </nav>
         </div>
 

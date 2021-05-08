@@ -57,6 +57,13 @@ const Footer: FC<any> = ({ className, pages }) => {
                   </a>
                 </Link>
               </li>
+              <li className="py-3 md:py-0 md:pb-4">
+                <Link href="/faq">
+                  <a className="text-primary hover:text-accents-6 transition ease-in-out duration-150">
+                    FAQ
+                  </a>
+                </Link>
+              </li>
               {sitePages.map((page) => (
                 <li key={page.url} className="py-3 md:py-0 md:pb-4">
                   <Link href={page.url!}>

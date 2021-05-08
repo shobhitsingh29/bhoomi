@@ -1,0 +1,21 @@
+
+details > summary {
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::after {
+  @apply ml-0.5;
+}
+
+details[open] > summary::after {
+  content: url('/public/arrow-down.svg');
+  @apply transform rotate-180 origin-center -translate-y-1;
+}
+
+details[open] > summary {
+  @apply font-bold text-very-dark-desaturated-blue hover:text-very-dark-desaturated-blue;
+}
