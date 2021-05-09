@@ -17,5 +17,4 @@ const Head: FC = () => {
     )
 }
 
-export default Head
-̊
+export default Head;
