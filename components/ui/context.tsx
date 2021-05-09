@@ -14,7 +14,7 @@ export interface State {
 const initialState = {
   displaySidebar: false,
   displayDropdown: false,
-  displayModal: true,
+  displayModal: false,
   modalView: "LOGIN_VIEW",
   displayToast: false,
   toastText: "",
