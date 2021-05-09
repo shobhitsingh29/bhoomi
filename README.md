@@ -16,7 +16,7 @@ Demo live at: [bhoomi.vercel.app](https://bhoomi.vercel.app/)
 
 ## Integrations
 
-Next.js Commerce integrates out-of-the-box with BigCommerce and Shopify. We plan to support all major ecommerce backends.
+Next.js Commerce integrates  out-of-the-box with BigCommerce and Shopify. We plan to support all major ecommerce backends.
 
 ## Considerations
 
