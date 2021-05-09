@@ -1,26 +1,26 @@
 {
-  "title": "Soil",
-  "titleTemplate": "%s - Soil Storefront",
-  "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+  "title": "bhoomi",
+  "titleTemplate": "%s - Soil Testing",
+  "description": "bhoomi soil testing",
   "openGraph": {
-    "title": "Soil",
-    "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+    "title": "bhoomi",
+    "description": "bhoomi soil testing",
     "type": "website",
     "locale": "en_IE",
-    "url": "https://nextjs.org/commerce",
-    "site_name": "Next.js Commerce",
+    "url": "https://bhoomi.vercel.app/",
+    "site_name": "bhoomi",
     "images": [
       {
         "url": "/card.png",
         "width": 800,
         "height": 600,
-        "alt": "Next.js Commerce"
+        "alt": "bhoomi"
       }
     ]
   },
   "twitter": {
-    "handle": "@nextjs",
-    "site": "@nextjs",
+    "handle": "@29shobhitsingh",
+    "site": "@twitter",
     "cardType": "summary_large_image"
   }
 }
