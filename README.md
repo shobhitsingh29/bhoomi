@@ -11,7 +11,7 @@ Demo live at: [bhoomi.vercel.app](https://bhoomi.vercel.app/)
 - UI Components
 - Theming
 - Standardized Data Hooks
-- Integrations - Integrate seamlessly with the most common ecommerce platforms.
+- Integrations - Integrate seamlessly with the most common  ecommerce platforms.
 - Dark Mode Support
 
 ## Integrations
