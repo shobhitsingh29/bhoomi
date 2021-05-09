@@ -48,6 +48,13 @@ const LoginView: FC<any> = () => {
     handleValidation();
   }, [handleValidation]);
 
+   const onSignIn=(googleUser)=> {
+     const profile = googleUser.getBasicProfile()
+     console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+    console.log('Name: ' + profile.getName());
+    console.log('Image URL: ' + profile.getImageUrl());
+    console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+  }
   return (
     <form
       onSubmit={handleLogin}
@@ -56,7 +63,9 @@ const LoginView: FC<any> = () => {
       <div className="flex justify-center pb-12 ">
         <Logo width="64px" height="64px" />
       </div>
+
       <div className="flex flex-col space-y-3">
+        <div className="mx-auto g-signin2" data-onsuccess="onSignIn" />
         {message && (
           <div className="text-red border border-red p-3">
             {message}. Did you {` `}

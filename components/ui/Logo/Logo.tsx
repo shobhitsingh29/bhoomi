@@ -12,11 +12,9 @@ const Logo = ({ className = "", ...props }) => (
       <text
         data-part-id="logo__item--business"
         dy="0"
-        alignment-baseline="auto"
-        font-family="Comfortaa"
-        font-size="32"
+        fontSize="32"
         fill="#e22009"
-        letter-spacing="0"
+        letterSpacing="0"
         data-font-family="Comfortaa"
         data-font-weight="normal"
         data-font-style="normal"
@@ -34,7 +32,7 @@ const Logo = ({ className = "", ...props }) => (
           d="M696.82 397.25c8.544-10.368 13.68-23.653 13.68-38.135 0-33.135-26.861-60-60-60-33.139 0-60 26.865-60 60 0 15.5 5.927 29.583 15.575 40.228 12.92-4.37 30.07-7.033 48.89-7.033 15.584-.002 30.015 1.83 41.855 4.94z"
           data-part-id="logo__item--logo_0__0"
         />
-        <g fill-rule="evenodd" clip-rule="evenodd" fill="#FFF">
+        <g fillRule="evenodd" clipRule="evenodd" fill="#FFF">
           <path
             d="M658.328 382.195c-3.992-2.257-5.865-8.88-3.974-12.534 2.615.14 7.152 7.07 3.974 12.534z"
             data-part-id="logo__item--logo_0__1"
@@ -260,7 +258,7 @@ const Logo = ({ className = "", ...props }) => (
             data-part-id="logo__item--logo_0__54"
           />
         </g>
-        <g fill-rule="evenodd" clip-rule="evenodd" fill="#FFF">
+        <g fillRule="evenodd" clipRule="evenodd" fill="#FFF">
           <path
             d="M641.352 385.295c5.095-1.95 8.47-9.412 6.887-14.046-3.103-.296-9.66 7.055-6.887 14.046z"
             data-part-id="logo__item--logo_0__55"
