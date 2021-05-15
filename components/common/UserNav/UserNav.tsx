@@ -28,8 +28,8 @@ const UserNav: FC<any> = ({ className }) => {
                     }
                         {loading ? (
                             <LoadingDots />
-                        ) : !session ? (
-                            <Button variant='slim'  className='truncate max-w-xs' onClick={() => signOut()}><pre>Sign Out </pre><pre className={'text-red max-w-xs truncate'}>{'session?.user?.name ?? session?.user?.email'}</pre></Button>
+                        ) : session ? (
+                            <Button variant='slim'  className='truncate max-w-xs' onClick={() => signOut()}><pre>Sign Out </pre><pre className={'text-red max-w-xs truncate'}>{session?.user?.name ?? session?.user?.email}</pre></Button>
                         ) : (
                             <Button variant='slim' onClick={() => setPopUp(true)}>Sign In</Button>
                         )}
