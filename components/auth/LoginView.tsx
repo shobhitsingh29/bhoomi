@@ -55,11 +55,11 @@ const LoginView: FC<any> = () => {
 
     const handleSignin = (e: any) => {
         e.preventDefault()
-        signIn(null,{redirect:false})
+        signIn()
     }
     const handleSignout = (e: any) => {
         e.preventDefault()
-        signOut(null,{redirect:false})
+        signOut()
     }
 
     return (
@@ -70,10 +70,10 @@ const LoginView: FC<any> = () => {
             >
                 <div className='flex flex-col space-y-3'>
                     <div>
-                        <div className='flex justify-center pb-12' >
+                        <div className='flex justify-center pb-12'>
                             <Logo width='64px' height='64px' />
                         </div>
-                        <div className='flex justify-center pb-12' >
+                        <div className='flex justify-center pb-12'>
                             {session && <a href='#' onClick={handleSignout}>
                                 <Button variant='slim'>
                                     Sign out
