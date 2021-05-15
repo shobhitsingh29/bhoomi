@@ -19,10 +19,6 @@ export default function Labs({}: InferGetStaticPropsType<
           <table className="waffle labs" cellSpacing="0" cellPadding="0">
             <tbody>
               <tr>
-                <th
-                  id="0R1"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s1 text-red" dir="ltr">
                   SrNo
                 </td>
@@ -53,15 +49,7 @@ export default function Labs({}: InferGetStaticPropsType<
                   <div className="softmerge-inner">Test Name AND Price</div>
                 </td>
               </tr>
-              <th
-                id="0R2"
-                className="row-headers-background row-header-shim"
-              ></th>
               <tr>
-                <th
-                  id="0R3"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   1
                 </td>
@@ -93,10 +81,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 </td>
               </tr>
               <tr>
-                <th
-                  id="0R3"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   2
                 </td>
@@ -118,10 +102,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R4"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   3
                 </td>
@@ -143,10 +123,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R5"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   4
                 </td>
@@ -168,10 +144,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R6"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   5
                 </td>
@@ -195,10 +167,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R7"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   6
                 </td>
@@ -220,10 +188,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R8"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   7
                 </td>
@@ -245,10 +209,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R9"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   8
                 </td>
@@ -272,10 +232,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R10"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   9
                 </td>
@@ -297,10 +253,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R11"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   10
                 </td>
@@ -322,10 +274,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R12"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   11
                 </td>
@@ -349,10 +297,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R13"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   12
                 </td>
@@ -374,10 +318,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R14"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   13
                 </td>
@@ -403,10 +343,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R15"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   14
                 </td>
@@ -432,10 +368,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R16"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   15
                 </td>
@@ -463,10 +395,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R17"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   16
                 </td>
@@ -488,10 +416,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R18"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   17
                 </td>
@@ -515,10 +439,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R19"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   18
                 </td>
@@ -540,10 +460,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R20"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   19
                 </td>
@@ -567,10 +483,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R21"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   20
                 </td>
@@ -594,10 +506,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R22"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   21
                 </td>
@@ -619,10 +527,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R23"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   22
                 </td>
@@ -646,10 +550,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R24"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   23
                 </td>
@@ -671,10 +571,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R25"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   24
                 </td>
@@ -696,10 +592,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R26"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   25
                 </td>
@@ -721,10 +613,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R27"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   26
                 </td>
@@ -748,10 +636,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R28"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   27
                 </td>
@@ -773,10 +657,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R29"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   28
                 </td>
@@ -798,10 +678,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R30"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   29
                 </td>
@@ -827,10 +703,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R31"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   30
                 </td>
@@ -854,10 +726,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R32"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   31
                 </td>
@@ -879,10 +747,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R33"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   32
                 </td>
@@ -904,10 +768,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R34"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   33
                 </td>
@@ -929,10 +789,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R35"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   34
                 </td>
@@ -956,10 +812,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R36"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   35
                 </td>
@@ -983,10 +835,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R37"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   36
                 </td>
@@ -1008,10 +856,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R38"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   37
                 </td>
@@ -1033,10 +877,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R39"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   38
                 </td>
@@ -1058,10 +898,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R40"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   39
                 </td>
@@ -1083,10 +919,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R41"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   40
                 </td>
@@ -1110,10 +942,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R42"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   41
                 </td>
@@ -1145,10 +973,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 </td>
               </tr>
               <tr>
-                <th
-                  id="0R43"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   42
                 </td>
@@ -1172,10 +996,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R44"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   43
                 </td>
@@ -1197,10 +1017,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R45"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   44
                 </td>
@@ -1222,10 +1038,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R46"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   45
                 </td>
@@ -1251,10 +1063,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R47"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   46
                 </td>
@@ -1278,10 +1086,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R48"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   47
                 </td>
@@ -1311,10 +1115,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R49"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   48
                 </td>
@@ -1336,10 +1136,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R50"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   49
                 </td>
@@ -1361,10 +1157,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R51"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   50
                 </td>
@@ -1388,10 +1180,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R52"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   51
                 </td>
@@ -1413,10 +1201,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R53"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   52
                 </td>
@@ -1438,10 +1222,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R54"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   53
                 </td>
@@ -1465,10 +1245,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R55"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   54
                 </td>
@@ -1490,10 +1266,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R56"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   55
                 </td>
@@ -1517,10 +1289,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R57"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   56
                 </td>
@@ -1542,10 +1310,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R58"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   57
                 </td>
@@ -1569,10 +1333,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R59"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   58
                 </td>
@@ -1594,10 +1354,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R60"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   59
                 </td>
@@ -1621,10 +1377,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R61"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   60
                 </td>
@@ -1646,10 +1398,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R62"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   61
                 </td>
@@ -1671,10 +1419,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R63"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   62
                 </td>
@@ -1696,10 +1440,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R64"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   63
                 </td>
@@ -1723,10 +1463,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R65"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   64
                 </td>
@@ -1748,10 +1484,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R66"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   65
                 </td>
@@ -1773,10 +1505,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R67"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   66
                 </td>
@@ -1800,10 +1528,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R68"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   67
                 </td>
@@ -1825,10 +1549,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R69"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   68
                 </td>
@@ -1852,10 +1572,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R70"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   69
                 </td>
@@ -1883,10 +1599,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R71"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   70
                 </td>
@@ -1908,10 +1620,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R72"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   71
                 </td>
@@ -1935,10 +1643,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R73"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   72
                 </td>
@@ -1962,10 +1666,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R74"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   73
                 </td>
@@ -1989,10 +1689,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R75"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   74
                 </td>
@@ -2014,10 +1710,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R76"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   75
                 </td>
@@ -2041,10 +1733,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R77"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   76
                 </td>
@@ -2068,10 +1756,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R78"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   77
                 </td>
@@ -2093,10 +1777,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R79"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   78
                 </td>
@@ -2118,10 +1798,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R80"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   79
                 </td>
@@ -2149,10 +1825,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 </td>
               </tr>
               <tr>
-                <th
-                  id="0R81"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   80
                 </td>
@@ -2174,10 +1846,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R82"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   81
                 </td>
@@ -2201,10 +1869,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R83"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   82
                 </td>
@@ -2226,10 +1890,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R84"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   83
                 </td>
@@ -2251,10 +1911,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R85"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   84
                 </td>
@@ -2276,10 +1932,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R86"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   85
                 </td>
@@ -2303,10 +1955,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R87"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   86
                 </td>
@@ -2332,10 +1980,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R88"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   87
                 </td>
@@ -2359,10 +2003,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R89"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   88
                 </td>
@@ -2384,10 +2024,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R90"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   89
                 </td>
@@ -2409,10 +2045,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R91"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   90
                 </td>
@@ -2434,10 +2066,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R92"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   91
                 </td>
@@ -2461,10 +2089,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R93"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   92
                 </td>
@@ -2494,10 +2118,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R94"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   93
                 </td>
@@ -2519,10 +2139,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R95"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   94
                 </td>
@@ -2544,10 +2160,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R96"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   95
                 </td>
@@ -2571,10 +2183,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R97"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   96
                 </td>
@@ -2596,10 +2204,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R98"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   97
                 </td>
@@ -2633,10 +2237,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 </td>
               </tr>
               <tr>
-                <th
-                  id="0R99"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   98
                 </td>
@@ -2658,10 +2258,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R100"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   99
                 </td>
@@ -2689,10 +2285,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R101"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   100
                 </td>
@@ -2714,10 +2306,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R102"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   101
                 </td>
@@ -2739,10 +2327,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R103"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   102
                 </td>
@@ -2766,10 +2350,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R104"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   103
                 </td>
@@ -2791,10 +2371,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R105"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   104
                 </td>
@@ -2818,10 +2394,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R106"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   105
                 </td>
@@ -2843,10 +2415,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R107"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   106
                 </td>
@@ -2870,10 +2438,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R108"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   107
                 </td>
@@ -2897,10 +2461,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R109"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   108
                 </td>
@@ -2922,10 +2482,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R110"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   109
                 </td>
@@ -2949,10 +2505,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R111"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   110
                 </td>
@@ -2976,10 +2528,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R112"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   111
                 </td>
@@ -3001,10 +2549,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R113"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   112
                 </td>
@@ -3028,10 +2572,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R114"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   113
                 </td>
@@ -3053,10 +2593,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R115"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   114
                 </td>
@@ -3080,10 +2616,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R116"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   115
                 </td>
@@ -3105,10 +2637,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R117"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   116
                 </td>
@@ -3130,10 +2658,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R118"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   117
                 </td>
@@ -3159,10 +2683,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R119"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   118
                 </td>
@@ -3184,10 +2704,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R120"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   119
                 </td>
@@ -3209,10 +2725,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R121"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   120
                 </td>
@@ -3236,10 +2748,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R122"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   121
                 </td>
@@ -3263,10 +2771,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R123"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   122
                 </td>
@@ -3288,10 +2792,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R124"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   123
                 </td>
@@ -3313,10 +2813,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R125"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   124
                 </td>
@@ -3340,10 +2836,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R126"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   125
                 </td>
@@ -3365,10 +2857,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R127"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   126
                 </td>
@@ -3392,10 +2880,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R128"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   127
                 </td>
@@ -3417,10 +2901,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R129"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   128
                 </td>
@@ -3442,10 +2922,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R130"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   129
                 </td>
@@ -3478,10 +2954,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 </td>
               </tr>
               <tr>
-                <th
-                  id="0R131"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   130
                 </td>
@@ -3503,10 +2975,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R132"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   131
                 </td>
@@ -3530,10 +2998,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R133"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   132
                 </td>
@@ -3555,10 +3019,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R134"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   133
                 </td>
@@ -3582,10 +3042,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R135"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   134
                 </td>
@@ -3621,10 +3077,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 </td>
               </tr>
               <tr>
-                <th
-                  id="0R136"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   135
                 </td>
@@ -3648,10 +3100,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R137"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   136
                 </td>
@@ -3675,10 +3123,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R138"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   137
                 </td>
@@ -3700,10 +3144,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R139"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   138
                 </td>
@@ -3727,10 +3167,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R140"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   139
                 </td>
@@ -3754,10 +3190,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R141"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   140
                 </td>
@@ -3779,10 +3211,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R142"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   141
                 </td>
@@ -3806,10 +3234,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R143"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   142
                 </td>
@@ -3831,10 +3255,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R144"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   143
                 </td>
@@ -3858,10 +3278,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R145"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   144
                 </td>
@@ -3885,10 +3301,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R146"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   145
                 </td>
@@ -3912,10 +3324,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s5"></td>
               </tr>
               <tr>
-                <th
-                  id="0R147"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   146
                 </td>
@@ -3937,10 +3345,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R148"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   147
                 </td>
@@ -3962,10 +3366,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R149"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   148
                 </td>
@@ -3999,10 +3399,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 </td>
               </tr>
               <tr>
-                <th
-                  id="0R150"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   149
                 </td>
@@ -4024,10 +3420,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R151"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   150
                 </td>
@@ -4051,10 +3443,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R152"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   151
                 </td>
@@ -4076,10 +3464,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R153"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   152
                 </td>
@@ -4101,10 +3485,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R154"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   153
                 </td>
@@ -4128,10 +3508,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R155"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   154
                 </td>
@@ -4155,10 +3531,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R156"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   155
                 </td>
@@ -4191,10 +3563,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 </td>
               </tr>
               <tr>
-                <th
-                  id="0R157"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   156
                 </td>
@@ -4216,10 +3584,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R158"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   157
                 </td>
@@ -4243,10 +3607,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R159"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   158
                 </td>
@@ -4270,10 +3630,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R160"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   159
                 </td>
@@ -4295,10 +3651,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R161"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   160
                 </td>
@@ -4322,10 +3674,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R162"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   161
                 </td>
@@ -4349,10 +3697,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R163"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   162
                 </td>
@@ -4374,10 +3718,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R164"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   163
                 </td>
@@ -4401,10 +3741,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R165"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   164
                 </td>
@@ -4426,10 +3762,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R166"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   165
                 </td>
@@ -4453,10 +3785,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R167"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   166
                 </td>
@@ -4478,10 +3806,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R168"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   167
                 </td>
@@ -4505,10 +3829,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R169"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   168
                 </td>
@@ -4530,10 +3850,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R170"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   169
                 </td>
@@ -4555,10 +3871,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R171"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   170
                 </td>
@@ -4580,10 +3892,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R172"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   171
                 </td>
@@ -4605,10 +3913,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R173"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   172
                 </td>
@@ -4632,10 +3936,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R174"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   173
                 </td>
@@ -4657,10 +3957,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R175"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   174
                 </td>
@@ -4682,10 +3978,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R176"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   175
                 </td>
@@ -4709,10 +4001,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R177"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   176
                 </td>
@@ -4736,10 +4024,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R178"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   177
                 </td>
@@ -4761,10 +4045,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R179"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   178
                 </td>
@@ -4786,10 +4066,6 @@ export default function Labs({}: InferGetStaticPropsType<
                 <td className="s0"></td>
               </tr>
               <tr>
-                <th
-                  id="0R180"
-                  className="row-headers-background row-header-shim"
-                ></th>
                 <td className="s3" dir="ltr">
                   179
                 </td>

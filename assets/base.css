@@ -111,6 +111,15 @@ a {
 .labs td{
   border: 1px solid black;
 }
+.labs tbody {
+display: grid;
+}
+
+.labs tr{
+display: grid;
+grid-template-columns: repeat(9,1fr);
+}
+
 
 @-webkit-keyframes fadeIn {
   from {

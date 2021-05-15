@@ -33,7 +33,10 @@ const Navbar: FC = () => (
                 </Link>
             </nav>
 
-            <nav className={s.mobilebarContainer} >
+            <nav   className={cn(
+                "lg:hidden flex fixed",
+                s.mobilebarContainer,
+            )}>
                 <Link href="/">
                     <a className={s.mobilebarTabItem}>Home</a>
                 </Link>
