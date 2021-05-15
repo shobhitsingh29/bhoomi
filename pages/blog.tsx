@@ -32,12 +32,12 @@ export default function Blog() {
               <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
                 <img
                   className="h-12 w-12 rounded-full"
-                  src="https://vercel.com/api/www/avatar/61182a9f6bda512b4d9263c9c8a60aabe0402f4c?s=204"
+                  src="https://lh3.googleusercontent.com/a-/AOh14Ginb9fWYu_pwH6MV5zO4Mmyr_oVCzHdhVHk9voVrks=s96-c"
                   alt="Avatar"
                 />
               </div>
               <div className="ml-4">
-                <div className="leading-6 font-medium text-white">Shobhit</div>
+                <div className="leading-6 font-medium text-white">Shobhit Singh</div>
                 <div className="leading-6 font-medium text-gray-200">
                   CEO, Soil
                 </div>
