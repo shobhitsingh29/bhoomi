@@ -108,6 +108,10 @@ a {
   animation-name: fadeIn;
 }
 
+.labs td{
+  border: 1px solid black;
+}
+
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;

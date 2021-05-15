@@ -9,14 +9,14 @@ export async function getStaticProps({}: GetStaticPropsContext) {
   };
 }
 
-export default function Search({}: InferGetStaticPropsType<
+export default function Labs({}: InferGetStaticPropsType<
   typeof getStaticProps
 >) {
   return (
     <div className="pb-20">
-      <div className="text-center pt-40 pb-56 bg-violet">
+      <div className="text-center">
         <Container>
-          <table className="waffle" cellSpacing="0" cellPadding="0">
+          <table className="waffle labs" cellSpacing="0" cellPadding="0">
             <tbody>
               <tr>
                 <th
@@ -4820,4 +4820,4 @@ export default function Search({}: InferGetStaticPropsType<
   );
 }
 
-Search.Layout = Layout;
+Labs.Layout = Layout;
