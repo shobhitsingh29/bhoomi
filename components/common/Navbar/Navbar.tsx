@@ -54,7 +54,7 @@ const Navbar: FC = () => (
 
         <div
             className={cn(
-                "justify-center flex-1 hidden lg:flex lg:ml-6"
+                "justify-center flex-1 hidden lg:flex lg:ml-72"
             )}>
           <Searchbar />
         </div>
