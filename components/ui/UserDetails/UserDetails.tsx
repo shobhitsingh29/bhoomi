@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import styles from "./UserDetails.module.css";
 import { useSession } from 'next-auth/client'
+import Image from "next/image";
 
 const UserDetails: FC<any> = () => {
   const [session, loading] = useSession();
@@ -10,7 +11,13 @@ const UserDetails: FC<any> = () => {
         <div className={styles.user}>
           {loading && <div className={styles.title}>Loading...</div>}
           {session && <> <p style={{ marginBottom: '10px' }}> Welcome, {session?.user?.name ?? session?.user?.email}</p> <br />
-            <img src={session?.user?.image ?? ""} alt="" className={styles.avatar} />
+              <Image
+                  quality="85"
+                  src={session?.user?.image ?? ""} alt="" className={styles.avatar}
+                  height={64}
+                  width={64}
+                  layout="fixed"
+              />
           </>}
           {!session &&
           <>
