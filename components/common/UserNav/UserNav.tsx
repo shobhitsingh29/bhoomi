@@ -19,7 +19,7 @@ const UserNav: FC<any> = ({ className }) => {
                     className={cn(
                         s.list,
                     )}
-                    >
+                >
                     {session && <li className={cn(s.item)}>
                         <button
                             className={s.avatarButton}
@@ -30,20 +30,22 @@ const UserNav: FC<any> = ({ className }) => {
                         </button>
                     </li>
                     }
-                    {loading ? (
-                        <LoadingDots />
-                    ) : session ? (
-                        <><Button variant='slim' className='truncate max-w-xs' onClick={() => signOut()}>
-                            <pre>Sign Out </pre>
-                        </Button>
-                        </>
+                    <li>
+                        {loading ? (
+                            <LoadingDots />
+                        ) : session ? (
+                            <><Button variant='slim' className='truncate max-w-xs' onClick={() => signOut()}>
+                                <pre>Sign Out </pre>
+                            </Button>
+                            </>
 
-                    ) : (
-                        <Button variant='slim' onClick={() => setPopUp(true)}>Sign In</Button>
-                    )}
-                    {popup && !session ? (
-                        <NewWindow url='/signIn' center='parent' onUnload={() => setPopUp(false)} />
-                    ) : null}
+                        ) : (
+                            <Button variant='slim' onClick={() => setPopUp(true)}>Sign In</Button>
+                        )}
+                        {popup && !session ? (
+                            <NewWindow url='/signIn' center='parent' onUnload={() => setPopUp(false)} />
+                        ) : null}
+                    </li>
                 </ul>
             </div>
         </nav>
