@@ -9,7 +9,6 @@ export interface State {
   displayToast: boolean;
   modalView: string;
   toastText: string;
-  userAvatar: string;
 }
 
 const initialState = {
@@ -20,7 +19,6 @@ const initialState = {
   modalView: "LOGIN_VIEW",
   displayToast: false,
   toastText: "",
-  userAvatar: "",
 };
 
 type Action =
@@ -60,10 +58,6 @@ type Action =
       type: "SET_MODAL_VIEW";
       view: MODAL_VIEWS;
     }
-  | {
-      type: "SET_USER_AVATAR";
-      value: string;
-    };
 
 type MODAL_VIEWS =
   | "SIGNUP_VIEW"
@@ -146,12 +140,6 @@ function uiReducer(state: State, action: Action) {
         toastText: action.text,
       };
     }
-    case "SET_USER_AVATAR": {
-      return {
-        ...state,
-        userAvatar: action.value,
-      };
-    }
   }
 }
 
@@ -180,9 +168,6 @@ export const UIProvider: FC = (props) => {
   const setDisplay = (value: boolean) =>
     dispatch({ type: "SET_DISPLAY", value });
 
-const setUserAvatar = (value: string) =>
-    dispatch({ type: "SET_USER_AVATAR", value });
-
   const setModalView = (view: MODAL_VIEWS) =>
     dispatch({ type: "SET_MODAL_VIEW", view });
 
@@ -200,7 +185,6 @@ const setUserAvatar = (value: string) =>
       setModalView,
       openToast,
       closeToast,
-      setUserAvatar,
       setDisplay,
     }),
     [state]

@@ -28,21 +28,21 @@ const UserNav: FC<any> = ({ className }) => {
                             </a>
                         </Link>
                     </li>
-                    <li className={cn(s.item)}>
+                    {session && <li className={cn(s.item)}>
                         <button
                             className={s.avatarButton}
                             aria-label='Menu'
                             onClick={() => setDisplay(!display)}
                         >
-                            <Avatar />
+                            <Avatar src={session?.user?.image ?? ''} />
                         </button>
                     </li>
-
+                    }
                     <div>
                         {loading ? (
                             <p>loading session...</p>
                         ) : session ? (
-                            <Button variant='slim' onClick={() => signOut()}>Sign Out</Button>
+                            <Button variant='slim' onClick={() => signOut()}>Sign Out {session?.user?.name ?? session?.user?.email}</Button>
                         ) : (
                             <Button variant='slim' onClick={() => setPopUp(true)}>Sign In</Button>
                         )}

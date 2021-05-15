@@ -1,23 +1,12 @@
-import { FC, useRef, useEffect } from "react";
-import { useUserAvatar } from "@lib/hooks/useUserAvatar";
+import React, { FC} from "react";
 
-interface Props {
-  className?: string;
-  children?: any;
-}
-
-const Avatar: FC<any> = ({}) => {
-  let ref = useRef() as React.MutableRefObject<HTMLInputElement>;
-  let { userAvatar } = useUserAvatar();
-
+const Avatar: FC<any> = ({src}) => {
   return (
-    <div
-      ref={ref}
-      style={{ backgroundImage: userAvatar }}
+    <img src={src}
+         alt={''}
       className="inline-block h-8 w-8 rounded-full border-2 border-primary hover:border-secondary focus:border-secondary transition linear-out duration-150"
     >
-      {/* Add an image - We're generating a gradient as placeholder  <img></img> */}
-    </div>
+    </img>
   );
 };
 
