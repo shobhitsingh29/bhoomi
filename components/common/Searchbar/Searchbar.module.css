@@ -1,5 +1,6 @@
 .input {
-  @apply bg-transparent px-3 py-2 appearance-none w-full transition duration-150 ease-in-out pr-10;
+  @apply bg-transparent appearance-none w-full transition duration-150 ease-in-out;
+  padding:1rem;
 
   @screen sm {
     min-width: 300px;
