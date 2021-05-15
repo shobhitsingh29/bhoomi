@@ -20,10 +20,10 @@ const Navbar: FC = () => (
               <a className={s.link}>Home</a>
             </Link>
             <Link href="/search">
-              <a className={s.link}>search</a>
+              <a className={s.link}>Search</a>
             </Link>
             <Link href="/blog">
-              <a className={s.link}>blog</a>
+              <a className={s.link}>Blog</a>
             </Link>
             <Link href="/faq">
               <a className={s.link}>FAQ</a>

@@ -18,16 +18,6 @@ const UserNav: FC<any> = ({ className }) => {
         <nav className={cn(s.root, className)}>
             <div className={s.mainContainer}>
                 <ul className={s.list}>
-                    <li className={s.item} onClick={toggleSidebar}>
-                        <Bag />
-                    </li>
-                    <li className={s.item}>
-                        <Link href='/wishlist'>
-                            <a onClick={closeSidebarIfPresent} aria-label='Wishlist'>
-                                <Heart />
-                            </a>
-                        </Link>
-                    </li>
                     {session && <li className={cn(s.item)}>
                         <button
                             className={s.avatarButton}
