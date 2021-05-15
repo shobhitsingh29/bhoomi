@@ -92,7 +92,7 @@ const Footer: FC<any> = ({ className, pages }) => {
             <div className="flex space-x-6 items-center h-10">
               <a
                 aria-label="Github Repository"
-                href="https://github.com/shobhitsingh29/shubs"
+                href="https://github.com/shobhitsingh29/bhoomi"
                 className={s.link}
               >
                 <Github />

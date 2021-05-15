@@ -1,7 +1,7 @@
 # Next.js Commerce 
 
 
-Demo live at: [bhoomi-alpa.vercel.app](https://bhoomi.vercel.app/)
+Demo live at: [bhoomi-alpa.vercel.app](https://bhoomi-alpa.vercel.app/)
 
 ## Features
 
