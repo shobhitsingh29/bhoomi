@@ -8,8 +8,8 @@ import s from "./Navbar.module.css";
 const Navbar: FC = () => (
   <NavbarRoot>
     <Container>
-      <div className="relative flex flex-row justify-between py-4 align-center md:py-6">
-        <div className="flex items-center flex-1">
+      <div className="relative flex flex-row justify-between py-4 align-center md:py-6 flex-wrap">
+        <div className="flex items-center ">
           <Link href="/">
             <a aria-label="Logo">
               <Logo />

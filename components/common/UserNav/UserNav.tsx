@@ -26,18 +26,16 @@ const UserNav: FC<any> = ({ className }) => {
                         </button>
                     </li>
                     }
-                    <div>
                         {loading ? (
                             <LoadingDots />
-                        ) : session ? (
-                            <Button variant='slim'  className={'w-auto'} onClick={() => signOut()}><pre>Sign Out </pre><pre className={'text-red'}>{session?.user?.name ?? session?.user?.email}</pre></Button>
+                        ) : !session ? (
+                            <Button variant='slim'  className='truncate max-w-xs' onClick={() => signOut()}><pre>Sign Out </pre><pre className={'text-red max-w-xs truncate'}>{'session?.user?.name ?? session?.user?.email'}</pre></Button>
                         ) : (
                             <Button variant='slim' onClick={() => setPopUp(true)}>Sign In</Button>
                         )}
                         {popup && !session ? (
                             <NewWindow url="/signIn" center='parent' onUnload={() => setPopUp(false)} />
                         ) : null}
-                    </div>
                 </ul>
             </div>
         </nav>
