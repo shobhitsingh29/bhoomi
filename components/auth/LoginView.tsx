@@ -55,11 +55,11 @@ const LoginView: FC<any> = () => {
 
     const handleSignin = (e: any) => {
         e.preventDefault()
-        signIn()
+        signIn(null,{redirect:false})
     }
     const handleSignout = (e: any) => {
         e.preventDefault()
-        signOut()
+        signOut(null,{redirect:false})
     }
 
     return (
