@@ -69,9 +69,9 @@ const Navbar: FC = () => {
             </div>
 
 
-            <div className='flex pb-4 lg:px-6 lg:hidden'>
+            {session && <div className='flex pb-4 lg:px-6 lg:hidden'>
                 <Searchbar id='mobile-search' />
-            </div>
+            </div>}
         </Container>
     </NavbarRoot>)
 }
