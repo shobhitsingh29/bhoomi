@@ -42,7 +42,7 @@ const UserNav: FC<any> = ({ className }) => {
                         {loading ? (
                             <p>loading session...</p>
                         ) : session ? (
-                            <Button variant='slim' onClick={() => signOut()}>Sign Out {session?.user?.name ?? session?.user?.email}</Button>
+                            <Button variant='slim'  onClick={() => signOut()}>Sign Out <span className={'text-red'}>{session?.user?.name ?? session?.user?.email}</span></Button>
                         ) : (
                             <Button variant='slim' onClick={() => setPopUp(true)}>Sign In</Button>
                         )}
