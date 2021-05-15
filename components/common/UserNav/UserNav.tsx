@@ -3,9 +3,9 @@ import cn from 'classnames'
 import { useUI } from '@components/ui/context'
 import s from './UserNav.module.css'
 import { Avatar } from '@components/common'
-import { useSession ,signOut } from 'next-auth/client'
+import { useSession, signOut } from 'next-auth/client'
 import NewWindow from 'react-new-window'
-import { Button } from '@components/ui'
+import { Button, LoadingDots } from '@components/ui'
 
 const UserNav: FC<any> = ({ className }) => {
     const { setDisplay, display } = useUI()
@@ -28,7 +28,7 @@ const UserNav: FC<any> = ({ className }) => {
                     }
                     <div>
                         {loading ? (
-                            <p>loading session...</p>
+                            <LoadingDots />
                         ) : session ? (
                             <Button variant='slim'  className={'w-auto'} onClick={() => signOut()}><pre>Sign Out </pre><pre className={'text-red'}>{session?.user?.name ?? session?.user?.email}</pre></Button>
                         ) : (
