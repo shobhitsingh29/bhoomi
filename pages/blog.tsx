@@ -46,11 +46,6 @@ export default function Blog() {
           </div>
         </Container>
       </div>
-      <Container>
-        <div className="-mt-96 mx-auto">
-          <img src="/soil.png" alt="soil" />
-        </div>
-      </Container>
     </div>
   );
 }
