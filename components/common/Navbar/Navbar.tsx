@@ -31,7 +31,7 @@ const Navbar: FC = () => (
           </nav>
         </div>
 
-        <div className="justify-center flex-1 hidden lg:flex">
+        <div className="justify-center flex-1 hidden lg:flex lg:ml-6">
           <Searchbar />
         </div>
 
