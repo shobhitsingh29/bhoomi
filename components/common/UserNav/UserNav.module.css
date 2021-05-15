@@ -3,7 +3,7 @@
 }
 
 .list {
-  @apply flex flex-row items-center justify-items-end h-full;
+  @apply flex items-center justify-items-end h-full;
 }
 
 .item {

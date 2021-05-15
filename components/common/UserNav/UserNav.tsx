@@ -15,7 +15,12 @@ const UserNav: FC<any> = ({ className }) => {
     return (
         <nav className={cn(s.root, className)}>
             <div className={s.mainContainer}>
-                <ul className={s.list}>
+                <ul
+                    className={cn(
+                        "md:flex-row flex-col",
+                        s.list,
+                    )}
+                    >
                     {session && <li className={cn(s.item)}>
                         <button
                             className={s.avatarButton}
@@ -26,16 +31,20 @@ const UserNav: FC<any> = ({ className }) => {
                         </button>
                     </li>
                     }
-                        {loading ? (
-                            <LoadingDots />
-                        ) : session ? (
-                            <Button variant='slim'  className='truncate max-w-xs' onClick={() => signOut()}><pre>Sign Out </pre><pre className={'text-red max-w-xs truncate'}>{session?.user?.name ?? session?.user?.email}</pre></Button>
-                        ) : (
-                            <Button variant='slim' onClick={() => setPopUp(true)}>Sign In</Button>
-                        )}
-                        {popup && !session ? (
-                            <NewWindow url="/signIn" center='parent' onUnload={() => setPopUp(false)} />
-                        ) : null}
+                    {loading ? (
+                        <LoadingDots />
+                    ) : session ? (
+                        <><Button variant='slim' className='truncate max-w-xs' onClick={() => signOut()}>
+                            <pre>Sign Out </pre>
+                        </Button>
+                        </>
+
+                    ) : (
+                        <Button variant='slim' onClick={() => setPopUp(true)}>Sign In</Button>
+                    )}
+                    {popup && !session ? (
+                        <NewWindow url='/signIn' center='parent' onUnload={() => setPopUp(false)} />
+                    ) : null}
                 </ul>
             </div>
         </nav>
