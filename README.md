@@ -1,6 +1,6 @@
 # Next.js Commerce 
 
-dds
+
 Demo live at: [bhoomi.vercel.app](https://bhoomi.vercel.app/)
 
 ## Features
