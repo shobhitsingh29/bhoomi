@@ -2,7 +2,6 @@ import React, { FC } from "react";
 import styles from "./UserDetails.module.css";
 import { useSession } from 'next-auth/client'
 
-
 const UserDetails: FC<any> = () => {
   const [session, loading] = useSession();
 
