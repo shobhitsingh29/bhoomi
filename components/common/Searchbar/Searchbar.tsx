@@ -29,21 +29,18 @@ const Searchbar: FC<any> = ({ className, id = "search" }) => {
         <input
           id={id}
           className={s.input}
-          placeholder="Labs for products..."
+          placeholder="Search your sample Id - XX123456/20XX-XX/12345678"
           defaultValue={router.query.q}
           onKeyUp={(e) => {
             e.preventDefault();
 
             if (e.key === "Enter") {
-              const q = e.currentTarget.value;
+              const id = e.currentTarget.value;
 
               router.push(
                 {
-                  pathname: `/search`,
-                  query: q ? { q } : {},
+                  pathname: `/search/${id}`,
                 },
-                undefined,
-                { shallow: true }
               );
             }
           }}
