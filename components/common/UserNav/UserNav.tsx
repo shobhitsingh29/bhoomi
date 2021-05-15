@@ -1,7 +1,5 @@
 import React, { FC, useState } from 'react'
-import Link from 'next/link'
 import cn from 'classnames'
-import { Heart, Bag } from '@components/icons'
 import { useUI } from '@components/ui/context'
 import s from './UserNav.module.css'
 import { Avatar } from '@components/common'
@@ -10,7 +8,7 @@ import NewWindow from 'react-new-window'
 import { Button } from '@components/ui'
 
 const UserNav: FC<any> = ({ className }) => {
-    const { toggleSidebar, closeSidebarIfPresent, setDisplay, display } = useUI()
+    const { setDisplay, display } = useUI()
     const [session, loading] = useSession()
     const [popup, setPopUp] = useState(false)
 
@@ -32,7 +30,7 @@ const UserNav: FC<any> = ({ className }) => {
                         {loading ? (
                             <p>loading session...</p>
                         ) : session ? (
-                            <Button variant='slim'  onClick={() => signOut()}>Sign Out <span className={'text-red'}>{session?.user?.name ?? session?.user?.email}</span></Button>
+                            <Button variant='slim'  className={'w-auto'} onClick={() => signOut()}><pre>Sign Out </pre><pre className={'text-red'}>{session?.user?.name ?? session?.user?.email}</pre></Button>
                         ) : (
                             <Button variant='slim' onClick={() => setPopUp(true)}>Sign In</Button>
                         )}
