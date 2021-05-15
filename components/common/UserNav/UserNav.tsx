@@ -17,7 +17,6 @@ const UserNav: FC<any> = ({ className }) => {
             <div className={s.mainContainer}>
                 <ul
                     className={cn(
-                        "md:flex-row flex-col",
                         s.list,
                     )}
                     >
