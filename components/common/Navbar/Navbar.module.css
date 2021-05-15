@@ -22,3 +22,33 @@
     transform: scale(1.05);
   }
 }
+
+
+
+.logo{
+  box-shadow: 0 10px 6px 0 rgb(0 0 0 / 18%);
+  border-radius: 6px;
+  border: 10px solid #fff;
+}
+
+.mobilebarContainer {
+  position: fixed;
+  bottom: 0px;
+  z-index: 12;
+  background-color:whitesmoke;
+  padding: 0px 0 8px 0px;
+  margin: 0 0px 0 -24px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+
+.mobilebarTabItem {
+  height: 70px;
+  width: 8rem;
+  border-radius: 50%;
+  padding:1.3rem 0;
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
